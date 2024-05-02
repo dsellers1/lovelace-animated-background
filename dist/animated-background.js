@@ -528,6 +528,7 @@ function urlIsVideo(url) {
 //removes lovelace theme background
 function removeDefaultBackground(node, current_config) {
   var background = 'transparent';
+  View.style.background = background;
   if (current_config.background) {
     background = current_config.background;
   }
