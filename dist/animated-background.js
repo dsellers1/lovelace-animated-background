@@ -450,7 +450,8 @@ function renderBackgroundHTML() {
         video {
           min-width: 100%;
           min-height: 100%;
-          width: 100%;
+          width: auto;
+          height: auto;
           position: absolute;
           top: 50%;
           left: 50%;
@@ -460,7 +461,8 @@ function renderBackgroundHTML() {
         img {
           min-width: 100%;
           min-height: 100%;
-          width: 100%;
+          width: auto;
+          height: auto;
           position: absolute;
           top: 50%;
           left: 50%;
